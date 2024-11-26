@@ -9,6 +9,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* NAVBAR */
+
 header {
     display: flex;
     justify-content: space-around;
@@ -33,6 +35,8 @@ a {
     width: 100px;
 }
 
+/* Content */
+
 main {
     display: flex;
     flex-wrap: wrap;
@@ -46,6 +50,8 @@ main {
     margin: 40px 0;
     position: relative;
 }
+
+/* Immagine Prodotti */
 
 .figure {
     width: 100%;
@@ -63,6 +69,8 @@ main {
     display: none;
 }
 
+/* LIKE BUTTON */
+
 .cuore {
     background-color: white;
     font-size: 30px;
@@ -75,6 +83,8 @@ main {
 .cuore:hover {
     color: red;
 }
+
+/* ETICHETTE */
 
 .label {
     padding: 5px;
@@ -104,6 +114,8 @@ main {
     left: 0;
 }
 
+/* DESCRIZIONE */
+
 .text {
     position: absolute;
     bottom: -50px;
@@ -121,4 +133,23 @@ main {
 
 .prod {
     font-weight: bold;
+}
+
+/* FOOTER NAV */
+
+footer {
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 10%;
+}
+
+.foot-text {
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.small {
+    font-size: 12px;
 }

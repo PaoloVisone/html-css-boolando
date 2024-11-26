@@ -20,6 +20,7 @@ header {
 ul li {
     list-style: none;
     display: inline-block;
+    padding: 5px;
 }
 
 a {
@@ -48,4 +49,76 @@ main {
 
 .figure {
     width: 100%;
+}
+
+.figureb {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.figure:hover {
+    display: none;
+}
+
+.cuore {
+    background-color: white;
+    font-size: 30px;
+    padding: 2% 3%;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.cuore:hover {
+    color: red;
+}
+
+.label {
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.red {
+    background-color: red;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+}
+
+.green {
+    background-color: green;
+    position: absolute;
+    bottom: 50px;
+    left: 45px;
+}
+
+.green-last {
+    background-color: green;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+}
+
+.text {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+}
+
+.brand {
+    font-size: 13px;
+    color: rgb(25, 25, 25);
+}
+
+.price {
+    color: red;
+}
+
+.prod {
+    font-weight: bold;
 }
